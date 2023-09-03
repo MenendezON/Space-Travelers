@@ -1,0 +1,77 @@
+.dragon {
+  width: 1080px;
+  margin: 50px auto 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dragon .card {
+  background-color: white;
+  width: 500px;
+  border: 2px solid silver;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.mainImg {
+  display: flex;
+  justify-content: end;
+  margin: 5px 0;
+}
+
+.button,
+.reserved {
+  height: 25px;
+  border: 0;
+  background-color: gray;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+.button {
+  background-color: #f66f1c;
+}
+
+.reserved {
+  background-color: gray;
+}
+
+.button:hover,
+.reserved:hover {
+  color: silver;
+}
+
+.images > img {
+  height: 90px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.dragon .card > img {
+  height: 300px;
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.dragon .card h2,
+.dragon .card em {
+  margin: 0;
+  padding: 5px;
+}
+
+.dragon .card h2 {
+  color: gray;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.images > img:hover {
+  border: 2px solid black;
+}

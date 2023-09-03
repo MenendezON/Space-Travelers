@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions component renders correctly 1`] = `
+<div>
+  <section
+    class="dragon"
+  >
+    <div
+      class="card"
+    >
+      <div>
+        <h2>
+          Dragon 1
+        </h2>
+        <em>
+          Type 1
+        </em>
+      </div>
+      <div
+        class="mainImg"
+        style="height: 300px; background-image: url(image1.jpg); background-size: cover;"
+      >
+        <button
+          class="button"
+          type="button"
+        >
+          Reserve dragon
+        </button>
+      </div>
+      <div
+        class="images"
+      >
+        <img
+          alt=""
+          src="image1.jpg"
+        />
+      </div>
+    </div>
+    <div
+      class="card"
+    >
+      <div>
+        <h2>
+          Dragon 2
+        </h2>
+        <em>
+          Type 2
+        </em>
+      </div>
+      <div
+        class="mainImg"
+        style="height: 300px; background-image: url(image2.jpg); background-size: cover;"
+      >
+        <button
+          class="reserved"
+          type="button"
+        >
+          Cancel the reserve
+        </button>
+      </div>
+      <div
+        class="images"
+      >
+        <img
+          alt=""
+          src="image2.jpg"
+        />
+      </div>
+    </div>
+  </section>
+</div>
+`;
